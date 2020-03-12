@@ -1,4 +1,4 @@
-# SEV Example API C# .Net Core
+# SEV Example API client C# .Net Core
 
 For more information please see one of our API manual website:
 
