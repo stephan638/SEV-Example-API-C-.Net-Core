@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>icon\sev.ico</ApplicationIcon>
+    <StartupObject>SEV.TestConsole.Program</StartupObject>
+    <Copyright>allservices distribution B.V.</Copyright>
+    <Company>allservices</Company>
+    <Product>SEV test console for API</Product>
+    <Authors>allservices</Authors>
+    <PackageProjectUrl>https://sev-api.allservices.nl/</PackageProjectUrl>
+    <PackageIcon>sev.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageTags>SEV API</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Description>This is a test console.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SEV.Client\SEV.Client.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="icon\sev.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Client\bin\Debug\netcoreapp3.1\SEV.Client.deps.json
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Client\bin\Debug\netcoreapp3.1\SEV.Client.dll
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Client\bin\Debug\netcoreapp3.1\SEV.Client.pdb
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Client\obj\Debug\netcoreapp3.1\SEV.Client.AssemblyInfoInputs.cache
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Client\obj\Debug\netcoreapp3.1\SEV.Client.AssemblyInfo.cs
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Client\obj\Debug\netcoreapp3.1\SEV.Client.dll
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Client\obj\Debug\netcoreapp3.1\SEV.Client.pdb
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Client\obj\Debug\netcoreapp3.1\SEV.Client.csprojAssemblyReference.cache

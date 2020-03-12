@@ -1,0 +1,3 @@
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\obj\Debug\netcoreapp3.1\SEV.Console.csprojAssemblyReference.cache
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\obj\Debug\netcoreapp3.1\SEV.Console.AssemblyInfoInputs.cache
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\obj\Debug\netcoreapp3.1\SEV.Console.AssemblyInfo.cs

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>allservices</Authors>
+    <Product>SEV.Client</Product>
+    <Copyright>allservices distribution B.V.</Copyright>
+    <PackageTags>SEV API Client</PackageTags>
+    <PackageProjectUrl>https://sev-api.allservices.nl/</PackageProjectUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>

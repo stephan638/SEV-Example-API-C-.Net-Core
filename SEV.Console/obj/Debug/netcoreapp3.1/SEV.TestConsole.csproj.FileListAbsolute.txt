@@ -1,0 +1,15 @@
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\bin\Debug\netcoreapp3.1\SEV.TestConsole.exe
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\bin\Debug\netcoreapp3.1\SEV.TestConsole.deps.json
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\bin\Debug\netcoreapp3.1\SEV.TestConsole.runtimeconfig.json
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\bin\Debug\netcoreapp3.1\SEV.TestConsole.runtimeconfig.dev.json
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\bin\Debug\netcoreapp3.1\SEV.TestConsole.dll
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\bin\Debug\netcoreapp3.1\SEV.TestConsole.pdb
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\bin\Debug\netcoreapp3.1\SEV.Client.dll
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\bin\Debug\netcoreapp3.1\SEV.Client.pdb
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\obj\Debug\netcoreapp3.1\SEV.TestConsole.csprojAssemblyReference.cache
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\obj\Debug\netcoreapp3.1\SEV.TestConsole.AssemblyInfoInputs.cache
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\obj\Debug\netcoreapp3.1\SEV.TestConsole.AssemblyInfo.cs
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\obj\Debug\netcoreapp3.1\SEV.TestConsole.csproj.CopyComplete
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\obj\Debug\netcoreapp3.1\SEV.TestConsole.dll
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\obj\Debug\netcoreapp3.1\SEV.TestConsole.pdb
