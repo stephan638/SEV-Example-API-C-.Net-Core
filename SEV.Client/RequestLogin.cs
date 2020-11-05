@@ -11,7 +11,7 @@ namespace SEV.Client
 {
     public class RequestLogin
     {
-        public async Task<BearerToken> Login(Uri baseUrl, string userName, string password)
+        public static async Task<BearerToken> Login(Uri baseUrl, string userName, string password)
         {
             using (var httpClient = new HttpClient())
             {

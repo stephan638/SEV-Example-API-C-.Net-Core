@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Visual Studio Projects\\GitHub\\SEV Client API Example Code C Sharp Core\\SEV.Client\\SEV.Client.csproj": {}
+    "C:\\Visual Studio Projects\\GitHub\\SEVExampleCode\\C#\\SEV.Client\\SEV.Client.csproj": {}
   },
   "projects": {
-    "C:\\Visual Studio Projects\\GitHub\\SEV Client API Example Code C Sharp Core\\SEV.Client\\SEV.Client.csproj": {
+    "C:\\Visual Studio Projects\\GitHub\\SEVExampleCode\\C#\\SEV.Client\\SEV.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Visual Studio Projects\\GitHub\\SEV Client API Example Code C Sharp Core\\SEV.Client\\SEV.Client.csproj",
+        "projectUniqueName": "C:\\Visual Studio Projects\\GitHub\\SEVExampleCode\\C#\\SEV.Client\\SEV.Client.csproj",
         "projectName": "SEV.Client",
-        "projectPath": "C:\\Visual Studio Projects\\GitHub\\SEV Client API Example Code C Sharp Core\\SEV.Client\\SEV.Client.csproj",
+        "projectPath": "C:\\Visual Studio Projects\\GitHub\\SEVExampleCode\\C#\\SEV.Client\\SEV.Client.csproj",
         "packagesPath": "C:\\Users\\Stephan\\.nuget\\packages\\",
-        "outputPath": "C:\\Visual Studio Projects\\GitHub\\SEV Client API Example Code C Sharp Core\\SEV.Client\\obj\\",
+        "outputPath": "C:\\Visual Studio Projects\\GitHub\\SEVExampleCode\\C#\\SEV.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

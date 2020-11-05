@@ -2,41 +2,40 @@
 using System;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Threading.Tasks;
 
 namespace SEV.Client.Config
 {
     public class SessionConfig
     {
-        public Uri BaseUrl { get; private set; }
+        public Uri BaseUrl = new Uri("https://sev-api.allservices.nl/");
         public HttpClient SEVClient { get; private set; }
         public BearerToken BearerToken { get; private set; }
 
         public bool LoginSuccessful { get; private set; }
 
-        public SessionConfig(string userName, string password)
+        public async static Task<SessionConfig> GetSessionConfigAsync(string userName, string password) 
         {
-            BaseUrl = new Uri("https://sev-api.allservices.nl/");
+            var session = new SessionConfig();
+            session.BearerToken = await RequestLogin.Login(session.BaseUrl, userName, password);
 
-            var logonRequest = new RequestLogin().Login(BaseUrl, userName, password);
-            logonRequest.Wait();
-
-            BearerToken = logonRequest.Result;
-
-            if (BearerToken == null)
+            if (session.BearerToken == null)
             {
-                LoginSuccessful = false;
-                return;
+                session.LoginSuccessful = false;
+                return session;
             }
             else
             {
-                LoginSuccessful = true;
+                session.LoginSuccessful = true;
             }
 
-            SEVClient = new HttpClient();
-            SEVClient.BaseAddress = BaseUrl;
-            SEVClient.DefaultRequestHeaders.Accept.Clear();
-            SEVClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            SEVClient.DefaultRequestHeaders.Add("authorization", $"{BearerToken.TokenType} {BearerToken.AccessToken}");
+            session.SEVClient = new HttpClient();
+            session.SEVClient.BaseAddress = session.BaseUrl;
+            session.SEVClient.DefaultRequestHeaders.Accept.Clear();
+            session.SEVClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            session.SEVClient.DefaultRequestHeaders.Add("authorization", $"{session.BearerToken.TokenType} {session.BearerToken.AccessToken}");
+
+            return session;
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Visual Studio Projects\\GitHub\\SEV Client API Example Code C Sharp Core\\SEV.Console\\SEV.TestConsole.csproj": {}
+    "C:\\Visual Studio Projects\\GitHub\\SEVExampleCode\\C#\\SEV.Console\\SEV.TestConsole.csproj": {}
   },
   "projects": {
-    "C:\\Visual Studio Projects\\GitHub\\SEV Client API Example Code C Sharp Core\\SEV.Client\\SEV.Client.csproj": {
+    "C:\\Visual Studio Projects\\GitHub\\SEVExampleCode\\C#\\SEV.Client\\SEV.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Visual Studio Projects\\GitHub\\SEV Client API Example Code C Sharp Core\\SEV.Client\\SEV.Client.csproj",
+        "projectUniqueName": "C:\\Visual Studio Projects\\GitHub\\SEVExampleCode\\C#\\SEV.Client\\SEV.Client.csproj",
         "projectName": "SEV.Client",
-        "projectPath": "C:\\Visual Studio Projects\\GitHub\\SEV Client API Example Code C Sharp Core\\SEV.Client\\SEV.Client.csproj",
+        "projectPath": "C:\\Visual Studio Projects\\GitHub\\SEVExampleCode\\C#\\SEV.Client\\SEV.Client.csproj",
         "packagesPath": "C:\\Users\\Stephan\\.nuget\\packages\\",
-        "outputPath": "C:\\Visual Studio Projects\\GitHub\\SEV Client API Example Code C Sharp Core\\SEV.Client\\obj\\",
+        "outputPath": "C:\\Visual Studio Projects\\GitHub\\SEVExampleCode\\C#\\SEV.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -61,18 +61,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Visual Studio Projects\\GitHub\\SEV Client API Example Code C Sharp Core\\SEV.Console\\SEV.TestConsole.csproj": {
+    "C:\\Visual Studio Projects\\GitHub\\SEVExampleCode\\C#\\SEV.Console\\SEV.TestConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Visual Studio Projects\\GitHub\\SEV Client API Example Code C Sharp Core\\SEV.Console\\SEV.TestConsole.csproj",
+        "projectUniqueName": "C:\\Visual Studio Projects\\GitHub\\SEVExampleCode\\C#\\SEV.Console\\SEV.TestConsole.csproj",
         "projectName": "SEV.TestConsole",
-        "projectPath": "C:\\Visual Studio Projects\\GitHub\\SEV Client API Example Code C Sharp Core\\SEV.Console\\SEV.TestConsole.csproj",
+        "projectPath": "C:\\Visual Studio Projects\\GitHub\\SEVExampleCode\\C#\\SEV.Console\\SEV.TestConsole.csproj",
         "packagesPath": "C:\\Users\\Stephan\\.nuget\\packages\\",
-        "outputPath": "C:\\Visual Studio Projects\\GitHub\\SEV Client API Example Code C Sharp Core\\SEV.Console\\obj\\",
+        "outputPath": "C:\\Visual Studio Projects\\GitHub\\SEVExampleCode\\C#\\SEV.Console\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -91,8 +91,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Visual Studio Projects\\GitHub\\SEV Client API Example Code C Sharp Core\\SEV.Client\\SEV.Client.csproj": {
-                "projectPath": "C:\\Visual Studio Projects\\GitHub\\SEV Client API Example Code C Sharp Core\\SEV.Client\\SEV.Client.csproj"
+              "C:\\Visual Studio Projects\\GitHub\\SEVExampleCode\\C#\\SEV.Client\\SEV.Client.csproj": {
+                "projectPath": "C:\\Visual Studio Projects\\GitHub\\SEVExampleCode\\C#\\SEV.Client\\SEV.Client.csproj"
               }
             }
           }
@@ -105,6 +105,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -120,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

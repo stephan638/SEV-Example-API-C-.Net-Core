@@ -15,7 +15,7 @@ namespace SEV.TestConsole
             Console.ForegroundColor = CCDefault;
             ActionSeporator();
 
-            new Commands().Options();
+            Commands.Options();
         }
     }
 }

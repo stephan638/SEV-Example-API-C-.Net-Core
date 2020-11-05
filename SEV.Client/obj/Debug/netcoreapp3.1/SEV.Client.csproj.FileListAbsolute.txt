@@ -6,3 +6,4 @@ C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Cl
 C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Client\obj\Debug\netcoreapp3.1\SEV.Client.dll
 C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Client\obj\Debug\netcoreapp3.1\SEV.Client.pdb
 C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Client\obj\Debug\netcoreapp3.1\SEV.Client.csprojAssemblyReference.cache
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Client\obj\Debug\netcoreapp3.1\SEV.Client.csproj.CoreCompileInputs.cache

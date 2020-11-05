@@ -4,15 +4,10 @@ namespace SEV.TestConsole
 {
     internal class Commands : BaseController
     {
-        private readonly Execute _execute;
-
-        public Commands()
+        public static void Options(SEVClient sevClient = null)
         {
-            _execute = new Execute();
-        }
+            SEVClient client = sevClient ?? GetSession();
 
-        public void Options()
-        {
             Console.ForegroundColor = CCCommands;
             Console.WriteLine($"{Environment.NewLine}Enter 1 of the following commands:{Environment.NewLine}");
             Console.WriteLine($"GetList");
@@ -27,44 +22,55 @@ namespace SEV.TestConsole
             var anwser = Console.ReadLine().ToLower().Split('/');
             ResultSeporator();
 
+            ExecuteCommand(client, anwser);
+
+            ResultSeporator();
+            Options(client);
+        }
+
+        private static void ExecuteCommand(SEVClient client, string[] anwser) 
+        {
             switch (anwser[0].Trim())
             {
                 case "getlist":
-                    _execute.GetProductList();
+                    client.GetProductList();
                     break;
                 case "getproduct":
-                    _execute.GetProduct(anwser[1].Trim());
+                    client.GetProduct(anwser[1].Trim());
                     break;
                 case "buyproduct":
                     if (anwser.Length < 4)
                     {
-                        _execute.BuyVoucher(anwser[1].Trim(), anwser[2]);
+                        client.BuyVoucher(anwser[1].Trim(), anwser[2]);
                     }
                     else
                     {
-                        _execute.BuyVoucher(anwser[1].Trim(), anwser[2], anwser[3]);
+                        client.BuyVoucher(anwser[1].Trim(), anwser[2], anwser[3]);
                     }
                     break;
                 case "getbalance":
-                    _execute.GetCurrentBalance();
+                    client.GetCurrentBalance();
                     break;
                 case "getsliptext":
-                    _execute.GetProduct(anwser[1].Trim());
+                    client.GetProduct(anwser[1].Trim());
                     break;
                 case "getsessioninfo":
-                    _execute.GetLogonInformation();
+                    client.GetLogonInformation();
                     break;
                 case "exit":
-                    _execute.Exit();
+                    client.Exit();
+                    Environment.Exit(0);
                     return;
                 default:
                     Console.ForegroundColor = CCWarning;
                     Console.WriteLine($"Invalid command, please try again.");
                     break;
             }
+        }
 
-            ResultSeporator();
-            Options();
+        private static SEVClient GetSession()
+        {
+            return SEVClient.CreateSession();
         }
     }
 }

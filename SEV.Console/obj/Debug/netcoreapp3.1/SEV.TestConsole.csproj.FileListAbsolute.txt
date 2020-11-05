@@ -13,3 +13,14 @@ C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Co
 C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\obj\Debug\netcoreapp3.1\SEV.TestConsole.csproj.CopyComplete
 C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\obj\Debug\netcoreapp3.1\SEV.TestConsole.dll
 C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\obj\Debug\netcoreapp3.1\SEV.TestConsole.pdb
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\obj\Debug\netcoreapp3.1\SEV.TestConsole.genruntimeconfig.cache
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\obj\Debug\netcoreapp3.1\SEV.TestConsole.csproj.CoreCompileInputs.cache
+C:\Visual Studio Projects\GitHub\SEV Client API Example Code C Sharp Core\SEV.Console\bin\Debug\netcoreapp3.1\SEV.TestConsole.json

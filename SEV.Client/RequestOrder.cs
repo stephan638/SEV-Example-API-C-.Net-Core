@@ -24,7 +24,7 @@ namespace SEV.Client
             if (response.IsSuccessStatusCode)
             {
                 var str = await response.Content.ReadAsStringAsync();
-                return JsonConvert.DeserializeObject<List<BuyVoucherResponse>>(str); ;
+                return JsonConvert.DeserializeObject<List<BuyVoucherResponse>>(str);
             }
 
             return null;

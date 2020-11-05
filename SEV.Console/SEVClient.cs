@@ -1,28 +1,36 @@
-﻿using SEV.Client.Config;
+﻿using Microsoft.Extensions.Configuration;
+using SEV.Client.Config;
 using System;
 using System.Linq;
 using System.Text;
 
 namespace SEV.TestConsole
 {
-    internal class Execute : BaseController
+    internal class SEVClient : BaseController
     {
-        private const string _userName = "";
-        private const string _password = "";
+        private readonly string _userName = "";
+        private readonly string _password = "";
 
         private static SessionConfig session;
 
-        public Execute() 
+        private SEVClient(string userName, string password)
         {
-            CreateSession();
+            _userName = userName;
+            _password = password;
         }
 
-        private void CreateSession(bool firstTry = true)
+        public static SEVClient CreateSession(bool firstTry = true)
         {
-            if (!string.IsNullOrEmpty(_userName) && !string.IsNullOrEmpty(_password) && firstTry)
+            var configuration = new ConfigurationBuilder()
+                    .AddJsonFile("SEV.TestConsole.json", optional: true, reloadOnChange: true)
+                    .Build();
+
+            var sevClient = new SEVClient(configuration["UserName"], configuration["Password"]);
+
+            if (!string.IsNullOrEmpty(sevClient._userName) && !string.IsNullOrEmpty(sevClient._password) && firstTry)
             {
-                Console.WriteLine($"Start login for user { _userName }");
-                session = new SessionConfig(_userName, _password);
+                Console.WriteLine($"Start login for user { sevClient._userName }");
+                session = SessionConfig.GetSessionConfigAsync(sevClient._userName, sevClient._password).Result;
             }
             else
             {
@@ -39,7 +47,7 @@ namespace SEV.TestConsole
                     password += key.KeyChar;
                 }
 
-                session = new SessionConfig(userName, password);
+                session = SessionConfig.GetSessionConfigAsync(userName, password).Result;
             }
 
             if (!session.LoginSuccessful)
@@ -51,13 +59,15 @@ namespace SEV.TestConsole
                 ActionSeporator();
                 session = null;
                 CreateSession(false);
-                return;
+                return sevClient;
             }
 
             ActionSeporator();
             Console.ForegroundColor = CCSuccesful;
             Console.WriteLine("Login successfully");
             ActionSeporator();
+
+            return sevClient;
         }
 
         public void GetLogonInformation()
@@ -190,7 +200,7 @@ namespace SEV.TestConsole
             }
         }
 
-        public void Exit() 
+        public void Exit()
         {
             session.SEVClient.Dispose();
             session = null;
